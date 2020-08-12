@@ -189,7 +189,7 @@ pm uninstall -k --user 0 com.samsung.android.tripwidget
 pm uninstall -k --user 0 com.samsung.android.visionarapps
 pm uninstall -k --user 0 com.samsung.android.visioncloudagent
 pm uninstall -k --user 0 com.samsung.android.visionintelligence
-pm uninstall -k --user 0 com.samsung.android.voicewakeup
+# pm uninstall -k --user 0 com.samsung.android.voicewakeup
 pm uninstall -k --user 0 com.samsung.android.wellbeing
 pm uninstall -k --user 0 com.samsung.android.widgetapp.yahooedge.finance
 pm uninstall -k --user 0 com.samsung.android.widgetapp.yahooedge.sport
