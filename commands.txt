@@ -8,13 +8,14 @@ pm uninstall -k --user 0 com.amazon.venezia
 # pm uninstall -k --user 0 com.android.backupconfirm
 pm uninstall -k --user 0 com.android.bips
 pm uninstall -k --user 0 com.android.chrome
-pm uninstall -k --user 0 com.android.documentsui
+# Needed to interactively grant directory write permission (file managers, etc)
+# pm uninstall -k --user 0 com.android.documentsui
 pm uninstall -k --user 0 com.android.dreams.basic
 pm uninstall -k --user 0 com.android.dreams.phototable
 pm uninstall -k --user 0 com.android.egg
 pm uninstall -k --user 0 com.android.email
 pm uninstall -k --user 0 com.android.exchange
-pm uninstall -k --user 0 com.android.hotwordenrollment.okgoogle
+# pm uninstall -k --user 0 com.android.hotwordenrollment.okgoogle
 # pm uninstall -k --user 0 com.android.printspooler
 pm uninstall -k --user 0 com.android.providers.downloads.ui
 pm uninstall -k --user 0 com.android.providers.partnerbookmarks
@@ -86,7 +87,8 @@ pm uninstall -k --user 0 com.monotype.android.font.cooljazz
 pm uninstall -k --user 0 com.monotype.android.font.foundation
 pm uninstall -k --user 0 com.monotype.android.font.rosemary
 # pm uninstall -k --user 0 com.nuance.swype.input
-pm uninstall -k --user 0 com.osp.app.signin
+# Removing this causes an annoying crash dialog when enabling Bluetooth...
+# pm uninstall -k --user 0 com.osp.app.signin
 pm uninstall -k --user 0 com.pandora.android
 pm uninstall -k --user 0 com.playstudios.popslots
 pm uninstall -k --user 0 com.policydm
