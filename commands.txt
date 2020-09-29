@@ -337,7 +337,8 @@ pm uninstall -k --user 0 com.sec.spen.flashannotate
 pm uninstall -k --user 0 com.sec.spp.push
 pm uninstall -k --user 0 com.sec.sve
 pm uninstall -k --user 0 com.sec.usbsettings
-pm uninstall -k --user 0 com.sec.vowifispg
+# WiFi Calling
+# pm uninstall -k --user 0 com.sec.vowifispg
 pm uninstall -k --user 0 com.sec.yosemite.phone
 pm uninstall -k --user 0 com.sem.factoryapp
 pm uninstall -k --user 0 com.singtel.mysingtel
