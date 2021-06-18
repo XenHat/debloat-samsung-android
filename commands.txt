@@ -58,6 +58,7 @@ pm uninstall -k --user 0 com.google.android.apps.tachyon
 # pm uninstall -k --user 0 com.google.android.feedback
 pm uninstall -k --user 0 com.google.android.gm
 # pm uninstall -k --user 0 com.google.android.googlequicksearchbox
+pm uninstall -k --user 0 com.google.android.music
 # pm uninstall -k --user 0 com.google.android.onetimeinitializer
 # pm uninstall -k --user 0 com.google.android.partnersetup
 # pm uninstall -k --user 0 com.google.android.printservice.recommendation
@@ -65,8 +66,8 @@ pm uninstall -k --user 0 com.google.android.gm
 # pm uninstall -k --user 0 com.google.android.tts
 # pm uninstall -k --user 0 com.google.android.videos
 # pm uninstall -k --user 0 com.google.android.youtube
-# pm uninstall -k --user 0 com.google.ar.core
-# pm uninstall -k --user 0 com.google.vr.vrcore
+pm uninstall -k --user 0 com.google.ar.core
+pm uninstall -k --user 0 com.google.vr.vrcore
 pm uninstall -k --user 0 com.gotv.nflgamecenter.us.lite
 pm uninstall -k --user 0 com.greatbigstory.greatbigstory
 # pm uninstall -k --user 0 com.gsn.android.tripeaks
@@ -75,11 +76,11 @@ pm uninstall -k --user 0 com.imdb.mobile
 pm uninstall -k --user 0 com.infraware.polarisoffice5
 pm uninstall -k --user 0 com.innogames.foeandroid
 pm uninstall -k --user 0 com.linkedin.android
-# pm uninstall -k --user 0 com.microsoft.appmanager
-# pm uninstall -k --user 0 com.microsoft.office.excel
-# pm uninstall -k --user 0 com.microsoft.office.powerpoint
-# pm uninstall -k --user 0 com.microsoft.office.word
-# pm uninstall -k --user 0 com.microsoft.skydrive
+pm uninstall -k --user 0 com.microsoft.appmanager
+pm uninstall -k --user 0 com.microsoft.office.excel
+pm uninstall -k --user 0 com.microsoft.office.powerpoint
+pm uninstall -k --user 0 com.microsoft.office.word
+pm uninstall -k --user 0 com.microsoft.skydrive
 # pm uninstall -k --user 0 com.mobeam.barcodeService
 # pm uninstall -k --user 0 com.monotype.android.font.chococooky
 # pm uninstall -k --user 0 com.monotype.android.font.cooljazz
@@ -137,7 +138,7 @@ pm uninstall -k --user 0 com.playstudios.popslots
 # pm uninstall -k --user 0 com.samsung.android.app.withtv
 # pm uninstall -k --user 0 com.samsung.android.ardrawing
 # pm uninstall -k --user 0 com.samsung.android.aremoji
-# pm uninstall -k --user 0 com.samsung.android.arzone
+pm uninstall -k --user 0 com.samsung.android.arzone
 # pm uninstall -k --user 0 com.samsung.android.authfw
 # pm uninstall -k --user 0 com.samsung.android.aware.service
 # pm uninstall -k --user 0 com.samsung.android.bbc.bbcagent
@@ -155,7 +156,7 @@ pm uninstall -k --user 0 com.samsung.android.calendar
 # pm uninstall -k --user 0 com.samsung.android.dlp.service
 # pm uninstall -k --user 0 com.samsung.android.drivelink.stub
 # pm uninstall -k --user 0 com.samsung.android.easysetup
-# pm uninstall -k --user 0 com.samsung.android.email.provider
+pm uninstall -k --user 0 com.samsung.android.email.provider
 # pm uninstall -k --user 0 com.samsung.android.emojiupdater
 # pm uninstall -k --user 0 com.samsung.android.fmm
 # pm uninstall -k --user 0 com.samsung.android.game.gamehome
@@ -201,7 +202,7 @@ pm uninstall -k --user 0 com.samsung.android.spayfw
 # pm uninstall -k --user 0 com.samsung.android.visionarapps
 # pm uninstall -k --user 0 com.samsung.android.visioncloudagent
 # pm uninstall -k --user 0 com.samsung.android.visionintelligence
-# pm uninstall -k --user 0 com.samsung.android.voc
+pm uninstall -k --user 0 com.samsung.android.voc
 # pm uninstall -k --user 0 com.samsung.android.voicewakeup
 # pm uninstall -k --user 0 com.samsung.android.wellbeing
 pm uninstall -k --user 0 com.samsung.android.widgetapp.yahooedge.finance
@@ -247,7 +248,7 @@ pm uninstall -k --user 0 com.sec.android.app.dexonpc
 pm uninstall -k --user 0 com.sec.android.app.kidshome
 # pm uninstall -k --user 0 com.sec.android.app.launcher
 # pm uninstall -k --user 0 com.sec.android.app.magnifier
-# pm uninstall -k --user 0 com.sec.android.app.myfiles
+pm uninstall -k --user 0 com.sec.android.app.myfiles
 # pm uninstall -k --user 0 com.sec.android.app.ocr
 # pm uninstall -k --user 0 com.sec.android.app.parser
 # pm uninstall -k --user 0 com.sec.android.app.personalization
@@ -280,6 +281,7 @@ pm uninstall -k --user 0 com.sec.android.app.kidshome
 # pm uninstall -k --user 0 com.sec.android.easyMover.Agent
 # pm uninstall -k --user 0 com.sec.android.easyonehand
 # pm uninstall -k --user 0 com.sec.android.emergencylauncher
+pm uninstall -k --user 0 com.sec.android.gallery3d
 # pm uninstall -k --user 0 com.sec.android.inputmethod
 # pm uninstall -k --user 0 com.sec.android.inputmethod.beta
 # pm uninstall -k --user 0 com.sec.android.mimage.avatarstickers
@@ -357,4 +359,4 @@ pm uninstall -k --user 0 comtv.peel.samsung.app
 pm uninstall -k --user 0 flipboard.boxer.app 
 pm uninstall -k --user 0 jp.gocro.smartnews.android
 pm uninstall -k --user 0 net.aetherpal.device
-echo done
+echo 'done'
